@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Gambar background pertama -->
+
+    <!-- Gambar background kedua -->
+
+    <!-- EditText untuk Email -->
+
+    <!-- EditText untuk Password -->
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="465dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_edittext"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:background="@drawable/background_edittext"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <!-- Tombol Login -->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="465dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/button_background"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="224dp"
+        android:layout_height="151dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="108dp"
+        app:srcCompat="@drawable/logocozyclean" />
+
+
+</RelativeLayout>
